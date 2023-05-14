@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images/favicon-32x32.png"
+		/>
+		<link href="styles.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Interactive rating component for screen sizes</title>
+	</head>
+	<body>
+		<div class="rate--container">
+			<div class="icon-container">
+				<div class="icon-div">
+					<svg
+						width="17"
+						height="16"
+						xmlns="http://www.w3.org/2000/svg"
+						class="icon"
+					>
+						<path
+							d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+							fill="#FC7614"
+						/>
+					</svg>
+				</div>
+			</div>
+			<h1>How did we do?</h1>
+			<p>
+				Please let us know how we did with your support request. All feedback is
+				appreciated to help us improve our offering!
+			</p>
+			<div class="rating-container">
+				<div class="rating" data-id="1">1</div>
+				<div class="rating" data-id="2">2</div>
+				<div class="rating" data-id="3">3</div>
+				<div class="rating" data-id="4">4</div>
+				<div class="rating" data-id="5">5</div>
+			</div>
+			<button class="btn">SUBMIT</button>
+		</div>
+		<div class="thank-you--container hidden">
+			<div class="img-container">
+				<img
+					src="images/illustration-thank-you.svg"
+					alt="Animated image of phone"
+				/>
+			</div>
+			<div class="your-selection--el">
+				<div class="your-selection--container">
+					<div class="your-selection">
+						You selected <span class="your-selection--span">4</span> out of 5
+					</div>
+				</div>
+			</div>
+			<h1>Thank you!</h1>
+			<p>
+				We appreciate you taking the time to give a rating. If you ever need
+				more support, don't hesitate to get in touch!
+			</p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

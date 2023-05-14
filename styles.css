@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	background-color: hsl(216, 12%, 8%);
+	font-family: "Overpass", sans-serif;
+	/* flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.rate--container {
+	background-color: hsl(213, 19%, 18%);
+	width: 29%;
+	padding: 3.2rem;
+	border-radius: 2.4rem;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	gap: 1.8rem;
+}
+.icon-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(216, 23%, 28%);
+
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+}
+h1 {
+	color: white;
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+p {
+	color: hsl(217, 12%, 63%);
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.rating-container {
+	/* flex */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.rating {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	background-color: hsl(216, 23%, 28%);
+	color: hsl(217, 12%, 63%);
+	font-size: 1.5rem;
+	font-weight: 700;
+	/* flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rating:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: white;
+}
+.btn {
+	width: 95%;
+	background-color: hsl(25, 97%, 53%);
+	color: white;
+	margin: 0 auto;
+	padding: 1.2rem;
+	border: none;
+	border-radius: 2.4rem;
+}
+.btn:hover {
+	background-color: white;
+	color: hsl(25, 97%, 53%);
+}
+
+/* ////////////////////////////////////////////////////// */
+/* /////////////// Thankyou container CSS /////////////// */
+/* ////////////////////////////////////////////////////// */
+
+.thank-you--container {
+	width: 26%;
+	background-color: hsl(213, 19%, 18%);
+	padding: 3.2rem;
+	border-radius: 2.4rem;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	gap: 1.8rem;
+}
+.img-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.thank-you--container h1 {
+	text-align: center;
+}
+.thank-you--container p {
+	text-align: center;
+}
+.your-selection--el {
+	height: 4.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.your-selection--container {
+	background-color: hsl(216, 23%, 28%);
+	height: 30%;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.6rem 0;
+}
+.your-selection {
+	margin: 0 1.2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	color: hsl(25, 97%, 53%);
+}
+
+/* ////////////////////////////// */
+/* MEDIA QUERRIES */
+/* ////////////////////////////// */
+
+@media (max-width: 1215px) {
+	/* RATE CONTAINER */
+	.rate--container {
+		padding: 2.4rem;
+		gap: 1.4rem;
+		width: 32%;
+	}
+	.icon-div {
+		width: 4rem;
+		height: 4rem;
+	}
+	.rating {
+		width: 4rem;
+		height: 4rem;
+	}
+	.btn {
+		padding: 0.6rem;
+	}
+	/* THANK YOU CONTAINER */
+	.thank-you--container {
+		width: 35%;
+	}
+}
+@media (max-width: 970px) {
+	html {
+		font-size: 8px;
+	}
+	.rate--container {
+		gap: 2.4rem;
+		width: 35%;
+	}
+	.icon-div {
+		width: 4.7rem;
+		height: 4.7rem;
+	}
+	.rating {
+		width: 4.7rem;
+		height: 4.7rem;
+	}
+	.btn {
+		padding: 0.8rem;
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 764px) {
+	.rate--container {
+		padding: 2.8rem;
+		width: 45%;
+	}
+	.icon-div {
+		width: 5rem;
+		height: 5rem;
+	}
+	.rating {
+		width: 5rem;
+		height: 5rem;
+	}
+	.btn {
+		padding: 0.8rem;
+	}
+	/* THANK YOU CONTAINER */
+	.thank-you--container {
+		width: 45%;
+	}
+}
+@media (max-width: 622px) {
+	html {
+		font-size: 9px;
+	}
+	.rate--container {
+		padding: 2.4rem;
+		width: 65%;
+	}
+	/* THANK YOU CONTAINER */
+	.thank-you--container {
+		width: 60%;
+	}
+}
+@media (max-width: 478px) {
+	html {
+		font-size: 9px;
+	}
+	.rate--container {
+		padding: 3rem;
+		width: 90%;
+	}
+	/* THANK YOU CONTAINER */
+	.thank-you--container {
+		width: 85%;
+	}
+}
+@media (max-width: 345px) {
+	html {
+		font-size: 8px;
+	}
+	.rate--container {
+		padding: 2.8rem;
+	}
+}
+/* ////////////////////////////// */
+/* HELPER classes */
+/* ////////////////////////////// */
+.hidden {
+	display: none;
+}
+
+.rated {
+	background-color: hsl(217, 12%, 63%);
+	color: white;
+}
