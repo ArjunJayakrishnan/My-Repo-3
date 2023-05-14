@@ -29,7 +29,7 @@ thankyou page scrnshot: [https://drive.google.com/file/d/1Ru1H2RRxQRDnA2DO-tsaou
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-3]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
