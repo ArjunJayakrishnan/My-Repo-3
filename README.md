@@ -30,7 +30,7 @@ thankyou page scrnshot: [https://drive.google.com/file/d/1Ru1H2RRxQRDnA2DO-tsaou
 ### Links
 
 - Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-3]
-- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-3/](https://your-live-site-url.com)
+- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-3/]
 
 ### Built with
 
