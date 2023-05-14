@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Rating page](https://drive.google.com/file/d/1WX01cIOU8ENra9bAaG3I64V_brKfpL9s/view?usp=share_link)
-![Thank you page](https://drive.google.com/file/d/1Ru1H2RRxQRDnA2DO-tsaouOvKBBi17ij/view?usp=share_link)
+rating page scrnshot: [https://drive.google.com/file/d/1WX01cIOU8ENra9bAaG3I64V_brKfpL9s/view?usp=share_link]
+thankyou page scrnshot: [https://drive.google.com/file/d/1Ru1H2RRxQRDnA2DO-tsaouOvKBBi17ij/view?usp=share_link]
 
 ### Links
 
