@@ -1,6 +1,9 @@
-# Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+### Links
+
+- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-3/]
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-3]
 
 ## Table of contents
 
@@ -27,10 +30,6 @@ rating page scrnshot: [https://drive.google.com/file/d/1WX01cIOU8ENra9bAaG3I64V_
 
 thankyou page scrnshot: [https://drive.google.com/file/d/1Ru1H2RRxQRDnA2DO-tsaouOvKBBi17ij/view?usp=share_link]
 
-### Links
-
-- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-3]
-- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-3/]
 
 ### Built with
 
