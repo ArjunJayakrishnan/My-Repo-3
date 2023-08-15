@@ -13,7 +13,6 @@
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -45,7 +44,3 @@ Even css styles have order! You cant just write css randomly.
 ## Author
 
 - Frontend Mentor - [@ArjunJayakrishnan](https://www.frontendmentor.io/profile/ArjunJayakrishnan)
-
-## Acknowledgments
-
-I thank frontend mentor for giving me this challenge.
